@@ -124,8 +124,8 @@ class PtsV2PaymentsPost201ResponsePointOfSaleInformation(object):
         :param terminal_id: The terminal_id of this PtsV2PaymentsPost201ResponsePointOfSaleInformation.
         :type: str
         """
-        if terminal_id is not None and len(terminal_id) > 8:
-            raise ValueError("Invalid value for `terminal_id`, length must be less than or equal to `8`")
+#         if terminal_id is not None and len(terminal_id) > 8:
+#             raise ValueError("Invalid value for `terminal_id`, length must be less than or equal to `8`")
 
         self._terminal_id = terminal_id
 
